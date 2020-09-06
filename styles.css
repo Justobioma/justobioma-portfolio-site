@@ -29,7 +29,6 @@ body{
   font-weight: bold;
 }
 
-
 .nav-wrapper > .left-side > div {
    margin: 20px;
    font-size: 0.9em;
@@ -54,6 +53,14 @@ body{
 
 .nav-link-wrapper a:hover {
 	 color: black;
+}
+
+.active-nav-link {
+	 border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+	 color: black !important;
 }
 
 /* PORTFOLIO STYLES */
@@ -120,4 +127,30 @@ body{
 
 .profile-text-wrapper h1 {
   color: lightgreen;
+}
+
+.contacts {
+	font-weight: bold;
+	font-style: italic;
+}
+/* FOOTER STYLES */
+.footer{
+	background-color: lightgrey;
+}
+
+.left-fside{
+  display: flex;
+}
+.nav-wrapper > .left-fside > div {
+   margin: 20px;
+   font-size: 0.9em;
+
+}
+.right-fside{
+  display: flex;
+}
+.nav-wrapper > .right-fside > div {
+   margin: 10px;
+   font-size: 0.9em;
+
 }
