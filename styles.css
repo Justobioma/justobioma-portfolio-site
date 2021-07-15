@@ -63,6 +63,15 @@ body {
   color: black !important;
 }
 
+/* ANCHOR TAGS*/
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #dcdcdc;
+}
+
 /* PORTFOLIO STYLES */
 .portfolio-items-wrapper {
   display: grid;
